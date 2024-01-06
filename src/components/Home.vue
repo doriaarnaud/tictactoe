@@ -37,7 +37,7 @@ export default
     margin-top:200px;
     padding-top:50px;
     height:600px;
-    background-image: linear-gradient(#4fb14f,#94f094);
+    background-color:#4fb14f;
 }
 .gamereset
 {

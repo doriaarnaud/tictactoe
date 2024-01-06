@@ -386,7 +386,7 @@ export default
     margin-right:auto;
     padding-left:20px;
     padding-right:20px;
-    background-image: linear-gradient(#4fb14f,#bcecbc);
+    background-color:#4fb14f;
     border-radius:10px;
     height: 100px;
     margin-top:-200px;

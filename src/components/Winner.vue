@@ -8,6 +8,7 @@
             <button id="continuer" @click="$emit('continuer')">Continue</button>
             <button id="replay" @click="$emit('replay')">Replay</button>
             <button id="quit" @click="$emit('quitter')">Quit</button>
+			<a id="mainhomepage" href="https://doriaarnaud.online">Go to Homepage</a>
         </div>
     </div>
 </template>
@@ -117,5 +118,16 @@ button#stat
 button#stat:hover
 {
     cursor:pointer;
+}
+#mainhomepage
+{
+	display:block;
+	font-size:1.7em;
+	color:#ffffff;
+	text-align: center;
+}
+a#mainhomepage
+{
+	text-decoration:none;
 }
 </style>
